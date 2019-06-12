@@ -1,0 +1,21 @@
+
+.pricing-wrapper {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+.pricing-subtitle2 {
+    margin-bottom: 0;
+}
+
+@media all and (min-width: 768px) {
+
+    .pricing-title {
+        text-align: center;
+    }
+    .subtitle-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 30px 0 30px;
+    }
+}

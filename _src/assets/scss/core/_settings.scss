@@ -1,0 +1,17 @@
+$color-white: #f3f4f5;
+html {
+  scroll-behavior: smooth;
+  body {
+    margin: 0;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+      list-style: none;
+    }
+  }
+}
