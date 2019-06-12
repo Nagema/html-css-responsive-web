@@ -215,8 +215,8 @@ html body li {
 }
 
 .btn-reasons:hover {
-  opacity: 0.8;
-  border: 2px solid #cf4f00;
+  border: 2px solid #ff741d;
+  background-color: #eb5a00;
 }
 
 .page__footer {
@@ -300,15 +300,6 @@ li a {
   justify-content: center;
   position: relative;
   top: -15px;
-}
-
-.pricing-wrapper {
-  background-color: #304268;
-  color: white;
-}
-
-.pricing-subtitle2 {
-  margin-bottom: 0;
 }
 
 @media all and (min-width: 768px) {
@@ -396,20 +387,6 @@ li a {
     transform: rotate(180deg) scale(1.1);
     -webkit-animation-iteration-count: 0;
     animation-iteration-count: 0;
-  }
-
-  .pricing-title {
-    text-align: center;
-  }
-
-  .subtitle-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin: 0 30px 0 30px;
   }
 }
 
